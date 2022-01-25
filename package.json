@@ -1,0 +1,42 @@
+{
+  "name": "learning-mongodbreactnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerissaj/learning-mongoDBReactNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerissaj/learning-mongoDBReactNode/issues"
+  },
+  "homepage": "https://github.com/nerissaj/learning-mongoDBReactNode#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/node": "latest",
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.7.0",
+    "eslint-plugin-react": "^7.28.0",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
